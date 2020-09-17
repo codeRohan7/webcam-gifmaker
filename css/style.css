@@ -1,0 +1,209 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+#h1{
+    position: fixed;
+    font-size: 30px;
+    top: 20%;
+    left: 2%;
+    background: -webkit-linear-gradient(#18396c, #9d2a90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+#makegif {
+    padding: 8px;
+    width: 9%;
+    margin-left: 3px;
+    position: relative;
+    background-color: #bc7ab4;
+    color: white;
+    border:1px solid white
+}
+#btn{
+    padding: 7px;
+    margin-left: 3px;
+    width: 9%;
+    position: relative;
+    background-image: radial-gradient(circle, #80a3d9 0%, #bc7ab4 100%);
+    color: white;
+    border:1px solid white
+    
+}
+#parent{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+@media screen and (max-width:572px){
+
+
+
+
+    body{
+        background-image: url("../img/bg.jpg");
+        background-size: 100% 180%;
+
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+}
+
+#parent{
+    margin-top: 2%;
+    margin-bottom: 15%;
+}
+
+
+
+
+#h1{
+    position: fixed;
+    top: 72%;
+    font-size: small;
+    left: 20%;
+    background: -webkit-linear-gradient(#18396c, #9d2a90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+#photo {
+    border: 1px solid black;
+    width: 100px !important ;
+    height: 73px !important;
+}
+.same1{
+    width: 100px !important;
+}
+
+.contentarea{
+    margin-top: 60px !important;
+}
+.logo{
+    margin-top:-50px !important
+}
+#makegif {
+    padding: 7px;
+    width: 30%;
+    margin-left: 3px;
+    position: relative;
+    
+    background-color: #bc7ab4;
+    color: white;
+    border:1px solid white
+}
+#startbutton {
+    position: relative;
+    width: 35%;
+    padding: 2px;
+    background-color: #80a3d9;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
+}
+#btn{
+    padding: 7px;
+    margin-left: 3px;
+    width: 30%;
+    position: relative;
+    background-image: radial-gradient(circle, #80a3d9 0%, #bc7ab4 100%);
+    color: white;
+    border:1px solid white
+    
+}
+
+
+}
+
+
+
+
+
+
+#video {
+    border: 1px solid black;
+    width: 320px;
+    height: 240px;
+}
+
+#photo {
+   
+    width: 16%;
+    height: 185px;
+    display: none;
+}
+
+#canvas {
+    display: none;
+}
+
+.camera {
+    width: 340px;
+    display: inline-block;
+
+}
+
+.output {
+    width: 340px;
+    display: inline-block;
+
+}
+.same1,.same2{
+    border: 0.5px solid lightblue;
+    border-radius: 10px;
+}
+.same2{
+    width: 18%;
+   
+}
+
+#startbutton {
+    position: relative;
+    padding: 8px;
+    background-color: #80a3d9;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
+}
+
+
+
+
+.makegif button {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.contentarea {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+}
+
+#newElement {
+    width: 340px;
+    background-color: #6a67ce;
+    display: inline-block;
+}
+
+
+
+
+
+#makegif,#btn,h1{
+   display: none;
+}
+
+.logo{
+    position: absolute;
+    right: 2%;
+}

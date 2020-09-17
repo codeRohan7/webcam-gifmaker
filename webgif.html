@@ -1,0 +1,69 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+</head>
+
+<body>
+    <div class="contentarea">
+        <div class="logo">
+            <img src="img/belive_logo.png" alt="">
+        </div>
+        <h1>
+            capture your video here
+        </h1>
+        <div class="camera">
+            <video id="video">Video stream not available.</video>
+        </div>
+        <div class="container">
+            <div class="row">      
+               <div class="form-group col-xs-6" >
+                <button id="startbutton"><i class="fa fa-camera-retro" aria-hidden="true">&nbsp; &nbsp;TAKE
+                    PHOTOS</i></button>
+                    <button id="makegif" onclick="createGIF()"> <i class="fa fa-video-camera" aria-hidden="true">&nbsp; &nbsp;
+                        GET GIF</i></button>  
+                        <button id="btn"><i class="fa fa-download" aria-hidden="true"> DOWNLOAD</i></button>
+
+
+               </div> 
+             </div>
+            </div>
+           
+            
+       
+            
+       
+        <canvas id="canvas"></canvas>
+        <div id="parent"> <img id="photo" class="same1" alt="The screen capture will appear in this box.">
+            <img id="photo1" class="same1">
+            <img id="photo2" class="same1">
+            <img id="photo3" class="same1">
+            <img id="photo4" class="same1">
+
+        </div>
+
+          <h1 id="h1"><i class="fa fa-video-camera" aria-hidden="true">&nbsp; &nbsp;
+            </i>Click on GET GIF to Create your GIF</h1>
+            <img id="animatedGIF" class="same2" alt="">
+       
+       
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gifshot/0.3.2/gifshot.min.js"
+            integrity="sha512-OT6U7ptIUN7rEyChuKitiUp4AdwmF/hAiSa516rtEwbuOnzalSZwmsV7Zazu8EImfCr+dROGVWHj6YM434SN+g=="
+            crossorigin="anonymous"></script>
+            
+        
+        
+</body>
+
+</html>
