@@ -79,7 +79,7 @@ body{
 
 
 #photo {
-    border: 1px solid black;
+    border: 1px solid lightblue;
     width: 100px !important ;
     height: 73px !important;
 }
@@ -161,7 +161,7 @@ body{
 
 
 #photo {
-    border: 1px solid black;
+    border: 1px solid lightblue;
     width: 100px !important ;
     height: 73px !important;
 }
@@ -216,9 +216,10 @@ body{
 
 
 #video {
-    border: 1px solid black;
+    border: 1px solid lightblue;
     width: 320px;
     height: 240px;
+    border-radius: 10px;
 }
 
 #photo {
@@ -260,6 +261,8 @@ body{
     font-size: 14px;
     color: rgba(255, 255, 255, 1.0);
     cursor: pointer;
+    
+
 }
 
 
