@@ -38,8 +38,13 @@ body{
     margin-top: 2%;
     margin-bottom: 1%;
 }
+#photo {
+    border: 1px solid lightblue;
+    width: 16% !important ;
+    
+}
 
-@media screen and (max-width:572px){
+@media screen and (max-width:572px) {
 
 
 
@@ -121,6 +126,89 @@ body{
 
 
 }
+@media screen and  (max-width:780px) {
+
+
+
+
+    body{
+        background-image: url("../img/bg.jpg");
+        background-size: 100% 180%;
+
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+}
+
+#parent{
+    margin-top: 2%;
+    margin-bottom: 15%;
+}
+
+
+
+
+#h1{
+    position: fixed;
+    top: 72%;
+    font-size: small;
+    left: 20%;
+    background: -webkit-linear-gradient(#18396c, #9d2a90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+#photo {
+    border: 1px solid black;
+    width: 100px !important ;
+    height: 73px !important;
+}
+.same1{
+    width: 100px !important;
+}
+
+.contentarea{
+    margin-top: 60px !important;
+}
+.logo{
+    margin-top:-50px !important
+}
+#makegif {
+    padding: 7px;
+    width: 30%;
+    margin-left: 3px;
+    position: relative;
+    
+    background-color: #bc7ab4;
+    color: white;
+    border:1px solid white
+}
+#startbutton {
+    position: relative;
+    width: 35%;
+    padding: 2px;
+    background-color: #80a3d9;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
+}
+#btn{
+    padding: 7px;
+    margin-left: 3px;
+    width: 30%;
+    position: relative;
+    background-image: radial-gradient(circle, #80a3d9 0%, #bc7ab4 100%);
+    color: white;
+    border:1px solid white
+    
+}
+
+
+}
+
 
 
 
