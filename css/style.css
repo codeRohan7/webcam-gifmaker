@@ -149,9 +149,9 @@ body{
 
 #h1{
     position: fixed;
-    top: 72%;
+    top: 63%;
     font-size: small;
-    left: 20%;
+    left: 34%;
     background: -webkit-linear-gradient(#18396c, #9d2a90);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
