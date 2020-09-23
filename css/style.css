@@ -1,16 +1,16 @@
 body{
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/fianl-bg.jpg");
     background-size: cover;
     overflow-x: hidden;
     background-repeat: no-repeat;
 }
 
 #h1{
-    position: fixed;
+    position: absolute;
     font-size: 30px;
-    top: 20%;
-    left: 2%;
-    background: -webkit-linear-gradient(#18396c, #9d2a90);
+    top: 22%;
+    left: 3%;
+    background: -webkit-linear-gradient(red, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
@@ -20,7 +20,7 @@ body{
     width: 9%;
     margin-left: 3px;
     position: relative;
-    background-color: #bc7ab4;
+    background-color: #92a536;
     color: white;
     border:1px solid white
 }
@@ -29,7 +29,7 @@ body{
     margin-left: 3px;
     width: 9%;
     position: relative;
-    background-image: radial-gradient(circle, #80a3d9 0%, #bc7ab4 100%);
+    background-image: radial-gradient(circle, #e2923b 1000%,  #d3ecef 0%);
     color: white;
     border:1px solid white
     
@@ -39,18 +39,26 @@ body{
     margin-bottom: 1%;
 }
 #photo {
-    border: 1px solid lightblue;
+    border: 1px solid #e27a0a;
     width: 16% !important ;
     
 }
 
-@media screen and (max-width:572px) {
+@media screen and (max-width:480px)
+{
+#h1{
+
+    position: absolute;
+    top:65% !important
+}
+}
+@media screen and (max-width:600px) {
 
 
 
 
     body{
-        background-image: url("../img/bg.jpg");
+        background-image: url("../img/fianl-bg.jpg");
         background-size: 100% 180%;
 
         overflow-x: hidden;
@@ -66,11 +74,11 @@ body{
 
 
 #h1{
-    position: fixed;
-    top: 72%;
+    position: absolute;
+    top: 63% ;
     font-size: small;
-    left: 20%;
-    background: -webkit-linear-gradient(#18396c, #9d2a90);
+    left: 20%!important;
+    background: -webkit-linear-gradient(red, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
@@ -79,7 +87,7 @@ body{
 
 
 #photo {
-    border: 1px solid lightblue;
+    border: 1px solid #e27a0a;
     width: 100px !important ;
     height: 73px !important;
 }
@@ -99,7 +107,7 @@ body{
     margin-left: 3px;
     position: relative;
     
-    background-color: #bc7ab4;
+    background-color:#92a536;
     color: white;
     border:1px solid white
 }
@@ -107,7 +115,7 @@ body{
     position: relative;
     width: 35%;
     padding: 2px;
-    background-color: #80a3d9;
+    background-color: #e27a0a;
     border: 1px solid rgba(255, 255, 255, 0.7);
     font-size: 14px;
     color: rgba(255, 255, 255, 1.0);
@@ -118,7 +126,7 @@ body{
     margin-left: 3px;
     width: 30%;
     position: relative;
-    background-image: radial-gradient(circle, #80a3d9 0%, #bc7ab4 100%);
+    background-image: radial-gradient(circle, #e2923b 1000%,  #d3ecef 0%);
     color: white;
     border:1px solid white
     
@@ -126,13 +134,15 @@ body{
 
 
 }
-@media screen and  (max-width:780px) {
+
+
+@media screen and (max-width:780px) {
 
 
 
 
     body{
-        background-image: url("../img/bg.jpg");
+        background-image: url("../img/fianl-bg.jpg");
         background-size: 100% 180%;
 
         overflow-x: hidden;
@@ -144,15 +154,19 @@ body{
     margin-bottom: 15%;
 }
 
+.same2{
+    width: 18%;
+}
+
 
 
 
 #h1{
-    position: fixed;
-    top: 63%;
+    position: absolute;
+    top: 65%;
     font-size: small;
     left: 34%;
-    background: -webkit-linear-gradient(#18396c, #9d2a90);
+    background: -webkit-linear-gradient(red, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     
@@ -161,7 +175,7 @@ body{
 
 
 #photo {
-    border: 1px solid lightblue;
+    border: 1px solid #e2923b;
     width: 100px !important ;
     height: 73px !important;
 }
@@ -181,7 +195,7 @@ body{
     margin-left: 3px;
     position: relative;
     
-    background-color: #bc7ab4;
+    background-color: #92a536;
     color: white;
     border:1px solid white
 }
@@ -189,7 +203,7 @@ body{
     position: relative;
     width: 35%;
     padding: 2px;
-    background-color: #80a3d9;
+    background-color: #e2923b!important;
     border: 1px solid rgba(255, 255, 255, 0.7);
     font-size: 14px;
     color: rgba(255, 255, 255, 1.0);
@@ -200,23 +214,15 @@ body{
     margin-left: 3px;
     width: 30%;
     position: relative;
-    background-image: radial-gradient(circle, #80a3d9 0%, #bc7ab4 100%);
+    background-image: radial-gradient(circle, #e2923b 1000%,  #d3ecef 0%);
     color: white;
     border:1px solid white
     
 }
-
-
 }
 
-
-
-
-
-
-
 #video {
-    border: 1px solid lightblue;
+    border: 1px solid #e27a0a;
     width: 320px;
     height: 240px;
     border-radius: 10px;
@@ -240,23 +246,26 @@ body{
 }
 
 .output {
-    width: 340px;
+    width: 280px;
     display: inline-block;
 
 }
 .same1,.same2{
-    border: 0.5px solid lightblue;
+    border: 0.5px solid #e27a0a;
     border-radius: 10px;
 }
 .same2{
-    width: 18%;
+    width: 14%;
+    position: relative;
+    bottom: -20px;
+    left: 1%;
    
 }
 
 #startbutton {
     position: relative;
     padding: 8px;
-    background-color: #80a3d9;
+    background-color: #e2923b!important;
     border: 1px solid rgba(255, 255, 255, 0.7);
     font-size: 14px;
     color: rgba(255, 255, 255, 1.0);
@@ -298,3 +307,7 @@ body{
     position: absolute;
     right: 2%;
 }
+
+/* #h1{
+    position: relative;
+} */
